@@ -3,8 +3,7 @@ pipeline{
     stages{
         stage('test'){
             steps{
-                echo 'rinning jobs'
-                sh 'script.sh'
+                echo 'running jobs'
             }
         }
     }
