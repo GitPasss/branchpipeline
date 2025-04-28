@@ -4,7 +4,6 @@ pipeline{
         stage('test'){
             steps{
                 echo 'rinning jobs'
-                sh 'script.sh'
             }
         }
     }
